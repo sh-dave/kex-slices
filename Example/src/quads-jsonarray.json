@@ -1,0 +1,21 @@
+{"frames": [
+
+{
+	"filename": "quads",
+	"frame": {"x":0,"y":0,"w":48,"h":16},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":48,"h":16},
+	"sourceSize": {"w":48,"h":16},
+	"pivot": {"x":0.5,"y":0.5}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "quads-jsonarray.png",
+	"format": "RGBA8888",
+	"size": {"w":48,"h":16},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:3b224e48a0a9bc0b87a7dfe3ed6f4838:8a84ea80d1ef858a8290042845ca7c65:569baec16aa102d778a23e68ba3d457d$"
+}
+}
