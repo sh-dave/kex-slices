@@ -1,3 +1,3 @@
-# kha-nineslice-extension
+# kex-slices-kha
 
 ![img](img.png)

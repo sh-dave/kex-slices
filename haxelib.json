@@ -1,6 +1,5 @@
 {
-	"name" : "kha-nineslice-extension",
+	"name" : "kex-slices-kha",
 	"license" : "zlib",
-	"url" : "https://github.com/sh-dave/kha-nineslice-extension",
-	"contributors" : ["sh-dave"]
+	"url" : "https://github.com/sh-dave/kex-slices-kha"
 }
