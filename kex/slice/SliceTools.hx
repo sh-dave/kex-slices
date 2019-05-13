@@ -10,7 +10,7 @@ import kha.Image;
 //	- d* = destination
 
 class SliceTools {
-	@:external public static inline function drawHorizontal3SliceImage(
+	public static inline function drawHorizontal3SliceImage(
 		g: Graphics, image: Image,
 		cx: FastFloat, cw: FastFloat,
 		dx: FastFloat, dy: FastFloat, dw: FastFloat
@@ -18,7 +18,7 @@ class SliceTools {
 		drawHorizontal3SliceSubImage(g, image, 0, 0, image.width, image.height, cx, cw, dx, dy, dw);
 	}
 
-	@:external public static inline function drawVertical3SliceImage(
+	public static inline function drawVertical3SliceImage(
 		g: Graphics, image: Image,
 		cy: FastFloat, ch: FastFloat,
 		dx: FastFloat, dy: FastFloat, dh: FastFloat
@@ -26,7 +26,7 @@ class SliceTools {
 		drawVertical3SliceSubImage(g, image, 0, 0, image.width, image.height, cy, ch, dx, dy, dh);
 	}
 
-	@:external public static function draw9SliceImage(
+	public static function draw9SliceImage(
 		g: Graphics, image: Image,
 		cx: FastFloat, cy: FastFloat, cw: FastFloat, ch: FastFloat,
 		dx: FastFloat, dy: FastFloat, dw: FastFloat, dh: FastFloat
@@ -34,7 +34,7 @@ class SliceTools {
 		draw9SliceSubImage(g, image, 0, 0, image.width, image.height, cx, cy, cw, ch, dx, dy, dw, dh);
 	}
 
-	@:external public static inline function drawHorizontal3SliceSubImage(
+	public static inline function drawHorizontal3SliceSubImage(
 		g: Graphics, image: Image,
 		sx: FastFloat, sy: FastFloat, sw: FastFloat, sh: FastFloat,
 		cx: FastFloat, cw: FastFloat,
@@ -43,7 +43,7 @@ class SliceTools {
 		draw9SliceSubImage(g, image, sx, sy, sw, sh, cx, 0, cw, sh, dx, dy, dw, sh);
 	}
 
-	@:external public static inline function drawVertical3SliceSubImage(
+	public static inline function drawVertical3SliceSubImage(
 		g: Graphics, image: Image,
 		sx: FastFloat, sy: FastFloat, sw: FastFloat, sh: FastFloat,
 		cy: FastFloat, ch: FastFloat,
