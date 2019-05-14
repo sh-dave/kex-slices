@@ -1,5 +1,6 @@
 {
 	"name" : "kex-slices-kha",
+	"classPath": "src",
 	"license" : "zlib",
 	"url" : "https://github.com/sh-dave/kex-slices-kha"
 }

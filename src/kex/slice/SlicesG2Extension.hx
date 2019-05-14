@@ -9,7 +9,7 @@ import kha.Image;
 //	- s* = subimage region
 //	- d* = destination
 
-class SliceTools {
+class SlicesG2Extension {
 	public static inline function drawHorizontal3SliceImage(
 		g: Graphics, image: Image,
 		cx: FastFloat, cw: FastFloat,
@@ -81,30 +81,4 @@ class SliceTools {
 		g.drawScaledSubImage(image, msx,	bsy,	cw,		bh, 	mrx,	bry,	mrw,	bh);
 		g.drawScaledSubImage(image, rsx,	bsy,	rw,		bh, 	rrx,	bry,	rw,		bh);
 	}
-
-// // #if kex_textureatlas_extension
-// 	@:external public static inline function draw9SliceSubTexture(
-// 		g: Graphics, t: SubTexture,
-// 		cx: FastFloat, cy: FastFloat, cw: FastFloat, ch: FastFloat,
-// 		dx: FastFloat, dy: FastFloat, dw: FastFloat, dh: FastFloat
-// 	) {
-// 		draw9SliceSubImage(g, t.image, t.sx, t.sy, t.sw, t.sh, cx, cy, cw, ch, dx, dy, dw, dh);
-// 	}
-
-// 	@:external public static inline function drawHorizontal3SliceSubTexture(
-// 		g: Graphics, t: SubTexture,
-// 		cx: FastFloat, cw: FastFloat,
-// 		dx: FastFloat, dy: FastFloat, dw: FastFloat
-// 	) {
-// 		drawHorizontal3SliceSubImage(g, t.image, t.sx, t.sy, t.sw, t.sh, cx, cw, dx, dy, dw);
-// 	}
-
-// 	@:external public static inline function drawVertical3SliceSubTexture(
-// 		g: Graphics, t: SubTexture,
-// 		cy: FastFloat, ch: FastFloat,
-// 		dx: FastFloat, dy: FastFloat, dh: FastFloa
-// 	) {
-// 		drawVertical3SliceSubImage(g, t.image, t.sx, t.sy, t.sw, t.sh, cy, ch, dx, dy, dh);
-// 	}
-// // #end
 }
