@@ -1,3 +1,3 @@
-# kex-slices-kha
+# kex-slices
 
 ![img](img.png)
